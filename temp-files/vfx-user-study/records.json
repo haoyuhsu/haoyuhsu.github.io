@@ -1,0 +1,272 @@
+{
+    "000_Remove the bulldozer from the scene, and add an apple at the bulldozer position..mp4": {
+        "editing_dir": "user-study/kitchen_transforms_001/Remove the bulldozer from the scene, and add an apple at the bulldozer position.",
+        "video_order": {
+            "1": "anyv2v.mp4",
+            "2": "visprog.mp4",
+            "3": "ours.mp4",
+            "4": "in2n.mp4"
+        }
+    },
+    "001_Insert a child and make him standing on the chair..mp4": {
+        "editing_dir": "user-study/office_transforms_006/Insert a child and make him standing on the chair.",
+        "video_order": {
+            "1": "in2n.mp4",
+            "2": "visprog.mp4",
+            "3": "anyv2v.mp4",
+            "4": "ours.mp4"
+        }
+    },
+    "002_Place a study lamp on the bed..mp4": {
+        "editing_dir": "user-study/room2_transforms_005/Place a study lamp on the bed.",
+        "video_order": {
+            "1": "ours.mp4",
+            "2": "visprog.mp4",
+            "3": "anyv2v.mp4",
+            "4": "in2n.mp4"
+        }
+    },
+    "003_Change the color of the hanging towel to brown..mp4": {
+        "editing_dir": "user-study/bathroom2_transforms_008/Change the color of the hanging towel to brown.",
+        "video_order": {
+            "1": "anyv2v.mp4",
+            "2": "ours.mp4",
+            "3": "visprog.mp4",
+            "4": "in2n.mp4"
+        }
+    },
+    "004_Insert a computer on the table and make it emit smoke..mp4": {
+        "editing_dir": "user-study/garden_transforms_001/Insert a computer on the table and make it emit smoke.",
+        "video_order": {
+            "1": "ours.mp4",
+            "2": "visprog.mp4",
+            "3": "in2n.mp4",
+            "4": "anyv2v.mp4"
+        }
+    },
+    "005_Setup a camp fire in the middle of the floor..mp4": {
+        "editing_dir": "user-study/room2_transforms_005/Setup a camp fire in the middle of the floor.",
+        "video_order": {
+            "1": "in2n.mp4",
+            "2": "anyv2v.mp4",
+            "3": "ours.mp4",
+            "4": "visprog.mp4"
+        }
+    },
+    "006_Make the vase with flowers to be like a mirror..mp4": {
+        "editing_dir": "user-study/garden_transforms_001/Make the vase with flowers to be like a mirror.",
+        "video_order": {
+            "1": "ours.mp4",
+            "2": "visprog.mp4",
+            "3": "anyv2v.mp4",
+            "4": "in2n.mp4"
+        }
+    },
+    "007_Drop four barrels onto the floor: one mirror-like, one with fabric textures, one resembling pavement, and one unchanged..mp4": {
+        "editing_dir": "user-study/room_transforms_001/Drop four barrels onto the floor: one mirror-like, one with fabric textures, one resembling pavement, and one unchanged.",
+        "video_order": {
+            "1": "anyv2v.mp4",
+            "2": "ours.mp4",
+            "3": "visprog.mp4",
+            "4": "in2n.mp4"
+        }
+    },
+    "008_Change the color of the sofa to be red..mp4": {
+        "editing_dir": "user-study/room2_transforms_001/Change the color of the sofa to be red.",
+        "video_order": {
+            "1": "in2n.mp4",
+            "2": "anyv2v.mp4",
+            "3": "visprog.mp4",
+            "4": "ours.mp4"
+        }
+    },
+    "009_Drop 5 basketballs on the table..mp4": {
+        "editing_dir": "user-study/garden_transforms_001/Drop 5 basketballs on the table.",
+        "video_order": {
+            "1": "in2n.mp4",
+            "2": "visprog.mp4",
+            "3": "anyv2v.mp4",
+            "4": "ours.mp4"
+        }
+    },
+    "010_Insert a mirror-like pikachu and a metallic pikachu on the table..mp4": {
+        "editing_dir": "user-study/garden_transforms_001/Insert a mirror-like pikachu and a metallic pikachu on the table.",
+        "video_order": {
+            "1": "in2n.mp4",
+            "2": "anyv2v.mp4",
+            "3": "visprog.mp4",
+            "4": "ours.mp4"
+        }
+    },
+    "011_Put a Tony Stark on the floor covered with smoke..mp4": {
+        "editing_dir": "user-study/office_transforms_005/Put a Tony Stark on the floor covered with smoke.",
+        "video_order": {
+            "1": "ours.mp4",
+            "2": "anyv2v.mp4",
+            "3": "visprog.mp4",
+            "4": "in2n.mp4"
+        }
+    },
+    "012_Replace the bulldozer with a birthday cake at the same position..mp4": {
+        "editing_dir": "user-study/kitchen_transforms_001/Replace the bulldozer with a birthday cake at the same position.",
+        "video_order": {
+            "1": "in2n.mp4",
+            "2": "anyv2v.mp4",
+            "3": "visprog.mp4",
+            "4": "ours.mp4"
+        }
+    },
+    "013_Drop seven apples on the floor and paint them in rainbow colors..mp4": {
+        "editing_dir": "user-study/room2_transforms_005/Drop seven apples on the floor and paint them in rainbow colors.",
+        "video_order": {
+            "1": "visprog.mp4",
+            "2": "ours.mp4",
+            "3": "in2n.mp4",
+            "4": "anyv2v.mp4"
+        }
+    },
+    "014_Insert a red pikachu and a cyan pikachu on the table..mp4": {
+        "editing_dir": "user-study/garden_transforms_001/Insert a red pikachu and a cyan pikachu on the table.",
+        "video_order": {
+            "1": "in2n.mp4",
+            "2": "ours.mp4",
+            "3": "anyv2v.mp4",
+            "4": "visprog.mp4"
+        }
+    },
+    "015_Add a cupcake on the metal plate..mp4": {
+        "editing_dir": "user-study/counter_transforms_001/Add a cupcake on the metal plate.",
+        "video_order": {
+            "1": "ours.mp4",
+            "2": "in2n.mp4",
+            "3": "visprog.mp4",
+            "4": "anyv2v.mp4"
+        }
+    },
+    "016_Add a basket on the table and a statue on the ground..mp4": {
+        "editing_dir": "user-study/garden_transforms_001/Add a basket on the table and a statue on the ground.",
+        "video_order": {
+            "1": "anyv2v.mp4",
+            "2": "visprog.mp4",
+            "3": "ours.mp4",
+            "4": "in2n.mp4"
+        }
+    },
+    "017_Add a large, colorful area rug on the floor..mp4": {
+        "editing_dir": "user-study/room2_transforms_001/Add a large, colorful area rug on the floor.",
+        "video_order": {
+            "1": "anyv2v.mp4",
+            "2": "visprog.mp4",
+            "3": "ours.mp4",
+            "4": "in2n.mp4"
+        }
+    },
+    "018_Add a stack of books on the couch..mp4": {
+        "editing_dir": "user-study/room_transforms_001/Add a stack of books on the couch.",
+        "video_order": {
+            "1": "visprog.mp4",
+            "2": "anyv2v.mp4",
+            "3": "ours.mp4",
+            "4": "in2n.mp4"
+        }
+    },
+    "019_Modify the texture of the bed to be fabric..mp4": {
+        "editing_dir": "user-study/room2_transforms_005/Modify the texture of the bed to be fabric.",
+        "video_order": {
+            "1": "in2n.mp4",
+            "2": "visprog.mp4",
+            "3": "ours.mp4",
+            "4": "anyv2v.mp4"
+        }
+    },
+    "020_Simulate books falling from the shelf..mp4": {
+        "editing_dir": "user-study/room2_transforms_001/Simulate books falling from the shelf.",
+        "video_order": {
+            "1": "ours.mp4",
+            "2": "in2n.mp4",
+            "3": "anyv2v.mp4",
+            "4": "visprog.mp4"
+        }
+    },
+    "021_Convert the color of blue gloves into red..mp4": {
+        "editing_dir": "user-study/counter_transforms_001/Convert the color of blue gloves into red.",
+        "video_order": {
+            "1": "visprog.mp4",
+            "2": "anyv2v.mp4",
+            "3": "in2n.mp4",
+            "4": "ours.mp4"
+        }
+    },
+    "022_Replace the blue gloves with Rubik's Cube..mp4": {
+        "editing_dir": "user-study/counter_transforms_001/Replace the blue gloves with Rubik's Cube.",
+        "video_order": {
+            "1": "anyv2v.mp4",
+            "2": "in2n.mp4",
+            "3": "ours.mp4",
+            "4": "visprog.mp4"
+        }
+    },
+    "023_Drop 10 keyboards on the table..mp4": {
+        "editing_dir": "user-study/office_transforms_007/Drop 10 keyboards on the table.",
+        "video_order": {
+            "1": "anyv2v.mp4",
+            "2": "ours.mp4",
+            "3": "visprog.mp4",
+            "4": "in2n.mp4"
+        }
+    },
+    "024_Insert a rusty chair on the carpet..mp4": {
+        "editing_dir": "user-study/room_transforms_001/Insert a rusty chair on the carpet.",
+        "video_order": {
+            "1": "in2n.mp4",
+            "2": "anyv2v.mp4",
+            "3": "visprog.mp4",
+            "4": "ours.mp4"
+        }
+    },
+    "025_Insert an animated dragon moving above and around the floor..mp4": {
+        "editing_dir": "user-study/office_transforms_005/Insert an animated dragon moving above and around the floor.",
+        "video_order": {
+            "1": "anyv2v.mp4",
+            "2": "visprog.mp4",
+            "3": "in2n.mp4",
+            "4": "ours.mp4"
+        }
+    },
+    "026_Insert an animated Goku figurine on the ground and make it on fire..mp4": {
+        "editing_dir": "user-study/garden_transforms_001/Insert an animated Goku figurine on the ground and make it on fire.",
+        "video_order": {
+            "1": "anyv2v.mp4",
+            "2": "visprog.mp4",
+            "3": "ours.mp4",
+            "4": "in2n.mp4"
+        }
+    },
+    "027_Place a trophy on the table..mp4": {
+        "editing_dir": "user-study/office_transforms_006/Place a trophy on the table.",
+        "video_order": {
+            "1": "visprog.mp4",
+            "2": "anyv2v.mp4",
+            "3": "in2n.mp4",
+            "4": "ours.mp4"
+        }
+    },
+    "028_Place a pikachu with pebble material and a pikachu with rosewood material on the table..mp4": {
+        "editing_dir": "user-study/garden_transforms_001/Place a pikachu with pebble material and a pikachu with rosewood material on the table.",
+        "video_order": {
+            "1": "visprog.mp4",
+            "2": "in2n.mp4",
+            "3": "ours.mp4",
+            "4": "anyv2v.mp4"
+        }
+    },
+    "029_Add a cupcake on the metal plate and set it with fire..mp4": {
+        "editing_dir": "user-study/counter_transforms_001/Add a cupcake on the metal plate and set it with fire.",
+        "video_order": {
+            "1": "ours.mp4",
+            "2": "anyv2v.mp4",
+            "3": "visprog.mp4",
+            "4": "in2n.mp4"
+        }
+    }
+}
