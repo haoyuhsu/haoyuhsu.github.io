@@ -9,14 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
     
   </head>
-
-  <style>
-    h1, h2, h3, h4, h5, h6 {
-      display: inline;
-    }
-  </style>
 
   <body>
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -29,84 +25,137 @@
                   Hao-Yu (Max) Hsu
                 </p>
                 <p>
-                  I am a 2nd year M.S. (thesis) student in Computer Science at <a href="https://cs.illinois.edu">University of Illinois Urbana-Champaign</a>, advised by Prof. <a href="https://shenlong.web.illinois.edu">Shenlong Wang</a>. 
-                  <strong>I am honored to receive Siebel Scholars Award, Class of 2025.</strong>
+                  I am an incoming Ph.D. student in computer science at the <a href="https://cs.illinois.edu">University of Illinois Urbana-Champaign</a>, starting in Fall 2025.
                 </p>
+                <p>
+                  Prior to this, I obtained my M.S. degree from UIUC and my B.S. degree from <a href="https://www.nthu.edu.tw/en/">National Tsing Hua University</a>. 
+                  I am fortunate to be advised by Prof. <a href="https://shenlong.web.illinois.edu/">Shenlong Wang</a> during my Master's study, and Prof. <a href="http://vllab.ee.ntu.edu.tw/ycwang.html">Yu-Chiang Frank Wang</a> and 
+                  Prof. <a href="https://shaohua0116.github.io">Shao-Hua Sun</a> at National Taiwan University during my undergrad.
+                </p>
+                <p></p>
                 <p>
                   My research interests lie in 3D vision, neural rendering, and multimodal learning. 
                   My long-term goal is to develop AR/VR tools that model and reconsturct our physical world, and make realistic simulations accessible to everyone. 
                 </p>
-                <p>
-                  Previously, I was fortunate to have been advised by Prof. <a href="http://vllab.ee.ntu.edu.tw/ycwang.html">Yu-Chiang Frank Wang</a> and 
-                  Prof. <a href="https://shaohua0116.github.io">Shao-Hua Sun</a> at National Taiwan University.
-                  I received my Bachelor's degree in Electrical Engineering from National Tsing Hua University in 2021 <strong>the highest distinction (summa cum laude)</strong>.
-                </p>
-                <p>
+                <!-- <p>
                   <strong><span style="color: red;">I am applying for 2025 Fall Ph.D. positions and actively seeking for research-oriented internships for 2025 Summer.
                   Please feel free to reach out if you believe I am a good candidate.</span></strong>
-                </p>
+                </p> -->
                 <p style="text-align:center">
-                  <a href="mailto:maxsyu88@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="data/cv_haoyuhsu.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="mailto:haoyuyh3@illinois.edu">Email</a> &nbsp;/&nbsp;
+                  <a href="https://drive.google.com/file/d/1ZBPxXUyB5IAMsS4D27KbNDvAwm0QaIs8/view?usp=sharing">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?user=fO4FU-IAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
                   <a href="https://github.com/haoyuhsu">Github</a> &nbsp;/&nbsp;
-                  <a href="https://x.com/haoyuhsu88">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://www.linkedin.com/in/haoyuhsu/">LinkedIn</a>
+                  <a href="https://x.com/haoyuhsu88">Twitter</a>
+                  <!-- <a href="https://www.linkedin.com/in/haoyuhsu/">LinkedIn</a> -->
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/prof_pic_grad.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/prof_pic_style.jpg" class="hoverZoomLink"></a>
+                <a href="images/prof_pic_style.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/prof_pic_style.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
 
-          <!-- Main Publication List -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
+              <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Selected Publications</h2> <span style="font-size: 100%;">(* denotes equal contribution)</span>
+                <h2>Selected Publications</h2>
+                <p style="margin-top:5px;margin-bottom:0px;font-size:16px;">(* denotes equal contribution)</p>
               </td>
             </tr>
           </tbody></table>
-
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <!-- PhysTwin -->
+            <tr onmouseout="phystwin_stop()" onmouseover="phystwin_start()">
+              <td style="padding:20px;width:25%;vertical-align:top">
+                <div class="one">
+                  <div class="two" id='phystwin_video'>
+                    <video width=100% muted autoplay loop style="max-width: 100%; height: auto; display: block;">
+                      <source src="images/preprint/phystwin_short.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <img src="images/preprint/phystwin_short.png" width=100%>
+                </div>
+                <script type="text/javascript">
+                  function phystwin_start() {
+                    document.getElementById('phystwin_video').style.opacity = "1";
+                  }
+                  function phystwin_stop() {
+                    document.getElementById('phystwin_video').style.opacity = "0";
+                  }
+                  phystwin_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:top">
+                <a href="https://jianghanxiao.github.io/phystwin-web/">
+                  <span class="papertitle">PhysTwin: Physics-Informed Reconstruction and Simulation of Deformable Objects from Videos</span>
+                </a>
+                <br>
+                <a href="https://jianghanxiao.github.io/">Hanxiao Jiang</a>,
+                <strong>Hao-Yu Hsu</strong>,
+                <a href="https://kywind.github.io/">Kaifeng Zhang</a>,
+                <a href="https://www.linkedin.com/in/hnyu/">Hsin-Ni Yu</a>,
+                <a href="https://shenlong.web.illinois.edu">Shenlong Wang</a>,
+                <a href="https://yunzhuli.github.io/">Yunzhu Li</a>
+                <br>
+                <em>ArXiv</em>, 2025
+                <br>
+                <a href="https://arxiv.org/abs/2503.17973">paper</a>
+                /
+                <a href="https://jianghanxiao.github.io/phystwin-web/">project page</a>
+                /
+                <a href="https://github.com/Jianghanxiao/PhysTwin">code</a>
+                <br>
+                <p></p>
+                <p>
+                  We optimize a spring-mass physics model of deformable objects and integrate the model with 3D Gaussian Splatting for real-time re-simulation with rendering.
+                </p>
+              </td>
+            </tr>
 
             <!-- AutoVFX -->
             <tr onmouseout="autovfx_stop()" onmouseover="autovfx_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
+              <td style="padding:20px;width:25%;vertical-align:top">
                 <div class="one">
-                  <div class="two" id='autovfx_gif'><img src='images/3dv25_autovfx/garden_fireball_demo.gif' width="160"></div>
-                  <img src='images/3dv25_autovfx/garden_fireball_demo.png' width="160">
+                  <div class="two" id='autovfx_video'>
+                    <video width=100% muted autoplay loop style="max-width: 100%; height: auto; display: block;">
+                      <source src="images/3dv25_autovfx/after.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                  <img src="images/3dv25_autovfx/garden_fireball_demo.png" width=100%>
                 </div>
                 <script type="text/javascript">
                   function autovfx_start() {
-                    document.getElementById('autovfx_gif').style.opacity = "1";
+                    document.getElementById('autovfx_video').style.opacity = "1";
                   }
-
                   function autovfx_stop() {
-                    document.getElementById('autovfx_gif').style.opacity = "0";
+                    document.getElementById('autovfx_video').style.opacity = "0";
                   }
                   autovfx_stop()
                 </script>
               </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
+              <td style="padding:20px;width:75%;vertical-align:top">
                 <a href="https://haoyuhsu.github.io/autovfx-website/">
-              <span class="papertitle">AutoVFX: Physically Realistic Video Editing from Natural Language Instructions</span>
+                  <span class="papertitle">AutoVFX: Physically Realistic Video Editing from Natural Language Instructions</span>
                 </a>
                 <br>
                 <strong>Hao-Yu Hsu</strong>,
-                <a href="https://zhihao-lin.github.io">Zhi-Hao Lin</a>,
+                <a href="https://chih-hao-lin.github.io">Chih-Hao Lin</a>,
                 <a href="https://ajzhai.github.io">Albert J. Zhai</a>,
                 <a href="https://xiahongchi.github.io">Hongchi Xia</a>,
                 <a href="https://shenlong.web.illinois.edu">Shenlong Wang</a>
                 <br>
-                <em>3DV, 2025</em>
+                <em>3DV</em>, 2025
                 <br>
                 <a href="https://arxiv.org/abs/2411.02394">paper</a>
                 /
                 <a href="https://haoyuhsu.github.io/autovfx-website/">project page</a>
                 /
                 <a href="https://github.com/haoyuhsu/autovfx">code</a>
+                <br>
                 <p></p>
                 <p>
                 A system that generates dynamic, physically realistic visual effects (VFX) on a single video solely from text-based editing instructions.
@@ -114,9 +163,9 @@
               </td>
             </tr>
 
-            <!-- SPOVT -->
+            <!-- SPoVT -->
             <tr onmouseout="spovt_stop()" onmouseover="spovt_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
+              <td style="padding:20px;width:25%;vertical-align:top">
                 <div class="one">
                   <div class="two" id='spovt_gif'><img src='images/nips22_spovt/nips22_spovt.gif' width="160"></div>
                   <img src='images/nips22_spovt/nips22_spovt.jpg' width="160">
@@ -132,9 +181,9 @@
                   spovt_stop()
                 </script>
               </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
+              <td style="padding:20px;width:75%;vertical-align:top">
                 <a href="https://haoyuhsu.github.io/spovt/">
-              <span class="papertitle">SPoVT: Semantic Prototype Variational Transformer for Dense Point Cloud Semantic Completion</span>
+                  <span class="papertitle">SPoVT: Semantic Prototype Variational Transformer for Dense Point Cloud Semantic Completion</span>
                 </a>
                 <br>
                 <strong>Hao-Yu Hsu</strong>*,
@@ -150,6 +199,7 @@
                 <a href="https://github.com/haoyuhsu/spovt">code</a>
                 /
                 <a href="https://slideslive.com/embed/presentation/38992362">video</a>
+                <br>
                 <p></p>
                 <p>
                 A point cloud semantic completion framework to complete partial point clouds of 3D objects with variational Transformer.
@@ -157,9 +207,9 @@
               </td>
             </tr>
 
-            <!-- NeurMIPs -->
+            <!-- NeurMiPs -->
             <tr onmouseout="neurmips_stop()" onmouseover="neurmips_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
+              <td style="padding:20px;width:25%;vertical-align:top">
                 <div class="one">
                   <div class="two" id='neurmips_gif'><img src='images/cvpr22_neurmips/cvpr22_neurmips.gif' width="160"></div>
                   <img src='images/cvpr22_neurmips/cvpr22_neurmips.jpg' width="160">
@@ -175,13 +225,13 @@
                   neurmips_stop()
                 </script>
               </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://zhihao-lin.github.io/neurmips/">
-              <span class="papertitle">NeurMiPs: Neural Mixture of Planar Experts for View Synthesis</span>
+              <td style="padding:20px;width:75%;vertical-align:top">
+                <a href="https://chih-hao-lin.github.io/neurmips/">
+                  <span class="papertitle">NeurMiPs: Neural Mixture of Planar Experts for View Synthesis</span>
                 </a>
                 <br>
-                <a href="https://zhihao-lin.github.io">Zhi-Hao Lin</a>, 
-                <a href="https://people.csail.mit.edu/weichium/">Wei-Chiu Ma</a>*, 
+                <a href="https://chih-hao-lin.github.io/">Zhi-Hao Lin</a>, 
+                <a href="https://www.cs.cornell.edu/~weichiu/">Wei-Chiu Ma</a>*, 
                 <strong>Hao-Yu Hsu</strong>*,
                 <a href="http://vllab.ee.ntu.edu.tw/ycwang.html">Yu-Chiang Frank Wang</a>,
                 <a href="https://shenlong.web.illinois.edu">Shenlong Wang</a>
@@ -190,34 +240,32 @@
                 <br>
                 <a href="https://arxiv.org/abs/2204.13696">paper</a>
                 /
-                <a href="https://zhihao-lin.github.io/neurmips/">project page</a>
+                <a href="https://chih-hao-lin.github.io/neurmips/">project page</a>
                 / 
-                <a href="https://github.com/zhihao-lin/neurmips">code</a>
+                <a href="https://github.com/chih-hao-lin/neurmips">code</a>
                 /
                 <a href="https://www.youtube.com/watch?v=PV1dCTWL5Oo">video</a>
+                <br>
                 <p></p>
                 <p>
-                Use a novel 3D planar representation to model the geometry and appearance of a scene for view synthesis.
+                Use an efficient 3D planar representation to model the geometry and appearance of a scene for novel view synthesis.
                 </p>
               </td>
             </tr>
 
           </tbody></table>
 
-          <!-- Other Publication List -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
+              <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Other Publications</h2> <span style="font-size: 100%;"></span>
+                <h2>Other Publications</h2>
               </td>
             </tr>
           </tbody></table>
-
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-            <!-- Latent NeRF -->
             <tr onmouseout="latentnerf_stop()" onmouseover="latentnerf_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
+              <td style="padding:20px;width:25%;vertical-align:top">
                 <div class="one">
                   <div class="two" id='latentnerf_gif'><img src='images/icip23_latentnerf/icip23_latentnerf.gif' width="160"></div>
                   <img src='images/icip23_latentnerf/icip23_latentnerf.jpg' width="160">
@@ -226,16 +274,15 @@
                   function latentnerf_start() {
                     document.getElementById('latentnerf_gif').style.opacity = "1";
                   }
-
                   function latentnerf_stop() {
                     document.getElementById('latentnerf_gif').style.opacity = "0";
                   }
                   latentnerf_stop()
                 </script>
               </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
+              <td style="padding:20px;width:75%;vertical-align:top">
                 <a href="https://ieeexplore.ieee.org/document/10222650">
-              <span class="papertitle">Interpreting Latent Representation In Neural Radiance Fields for Manipulating Object Semantics</span>
+                  <span class="papertitle">Interpreting Latent Representation In Neural Radiance Fields for Manipulating Object Semantics</span>
                 </a>
                 <br>
                 <a href="https://www.linkedin.com/in/yu-shan-huang-9b140a175/">Yu-Shan Huang</a>,
@@ -246,114 +293,189 @@
                 <em>ICIP</em>, 2023
                 <br>
                 <a href="https://ieeexplore.ieee.org/document/10222650">paper</a>
+                <br>
                 <p></p>
                 <p>
-                A method for semantic-aware manipulation on generative NeRF by controlling latent representation.
+                Developed a method for semantic-aware manipulation on generative NeRF by controlling latent representation.
                 </p>
               </td>
             </tr>
-          
+
           </tbody></table>
 
-          <!-- Education -->
-          <table style="width:100%;border:0px;padding:20px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px;width:100%;vertical-align:middle">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Education</h2>
               </td>
             </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
             <tr>
-              <td style="padding:0px;width:100%;vertical-align:middle">
-                <p>
-                  <strong>University of Illinois at Urbana-Champaign</strong>
-                  <br>
-                  M.S. in Computer Science, 2023 - present
-                  <br>
-                  <span style="color: red;">Awarded Siebel Scholar, Class of 2025</span> [<a href="https://www.businesswire.com/news/home/20240920559594/en/Siebel-Scholars-Foundation-Announces-Class-of-2025">news link</a>]
-                  <td style="padding:0px 20px 0px 20px;width:10%;vertical-align:middle"><img src="images/uiuc.png" width="50" height="50"></td>
-                </p>
+              <td style="padding:20px;width:75%;vertical-align:top">
+                <div style="display:flex;flex-direction:column;justify-content:center">
+                  <span style="font-weight:bold">Ph.D. in Computer Science</span>
+                  <span>University of Illinois at Urbana-Champaign</span>
+                  <span style="color:#666;font-style:italic;margin-top:3px">2025 - Present</span>
+                </div>
+              </td>
+              <td style="padding:20px;width:25%;vertical-align:top">
+                <div class="one" style="display:flex;align-items:center;height:100%">
+                  <img src="images/uiuc.png" width="50%" alt="UIUC Logo">
+                </div>
               </td>
             </tr>
+
             <tr>
-              <td style="padding:0px;width:100%;vertical-align:middle">
-                <p>
-                  <strong>National Tsing Hua University</strong>
-                  <br>
-                  B.S. in Electrical Engineering, 2017 - 2021
-                  <br>
-                  <span style="color: red;">Graduated with the highest honor, Rank: 1/102, GPA: 4.23/4.3</span>
-                  <td style="padding:0px 20px 0px 20px;width:10%;vertical-align:middle"><img src="images/logo_nthu.png" width="50" height="50"></td>
-                </p>
+              <td style="padding:20px;width:75%;vertical-align:top">
+                <div style="display:flex;flex-direction:column;justify-content:center">
+                  <span style="font-weight:bold">M.S. in Computer Science</span>
+                  <span>University of Illinois at Urbana-Champaign</span>
+                  <span style="color:#666;font-style:italic;margin-top:3px">2023 - 2025</span>
+                  <p style="margin-top:10px">
+                    <span style="color: red;">Awarded Siebel Scholar, Class of 2025</span> [<a href="https://www.businesswire.com/news/home/20240920559594/en/Siebel-Scholars-Foundation-Announces-Class-of-2025">news link</a>]
+                  </p>
+                </div>
+              </td>
+              <td style="padding:20px;width:25%;vertical-align:top">
+                <div class="one" style="display:flex;align-items:center;height:100%">
+                  <img src="images/uiuc.png" width="50%" alt="UIUC Logo">
+                </div>
               </td>
             </tr>
+
+            <tr>
+              <td style="padding:20px;width:75%;vertical-align:top">
+                <div style="display:flex;flex-direction:column;justify-content:center">
+                  <span style="font-weight:bold">B.S. in Electrical Engineering</span>
+                  <span>National Tsing Hua University</span>
+                  <span style="color:#666;font-style:italic;margin-top:3px">2017 - 2021</span>
+                  <p style="margin-top:10px">
+                    <span style="color: red;">Graduated with the highest honor, Rank: 1/102, GPA: 4.23/4.3</span>
+                  </p>
+                </div>
+              </td>
+              <td style="padding:20px;width:25%;vertical-align:top">
+                <div class="one" style="display:flex;align-items:center;height:100%">
+                  <img src="images/logo_nthu.png" width="50%" alt="NTHU Logo">
+                </div>
+              </td>
+            </tr>
+
           </tbody></table>
 
-
-          <!-- Experience -->
-          <table style="width:100%;border:0px;padding:20px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px;width:100%;vertical-align:middle">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Experience</h2>
               </td>
             </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
             <tr>
-              <td style="padding:0px;width:100%;vertical-align:middle">
-                <p>
-                  <strong><a href="https://shenlong.web.illinois.edu">Shenlong's Lab, UIUC CS</a></strong>
-                  <br>
-                  Graduate Student, Aug. 2023 - present
-                  <br>
-                  Advisor: Prof. <a href="https://shenlong.web.illinois.edu">Shenlong Wang</a>
-                  <td style="padding:0px 20px 0px 20px;width:10%;vertical-align:middle"><img src="images/uiuc.png" width="50" height="50"></td>
-                </p>
+              <td style="padding:20px;width:75%;vertical-align:top">
+                <div style="display:flex;flex-direction:column;justify-content:center">
+                  <span style="font-weight:bold">Graduate Student</span>
+                  <span><a href="https://shenlong.web.illinois.edu">Shenlong's Lab, UIUC CS</a></span>
+                  <span style="color:#666;font-style:italic;margin-top:3px">Aug. 2023 - present</span>
+                  <p style="margin-top:10px">
+                    Advisor: Prof. <a href="https://shenlong.web.illinois.edu">Shenlong Wang</a>
+                  </p>
+                </div>
+              </td>
+              <td style="padding:20px;width:25%;vertical-align:top">
+                <div class="one" style="display:flex;align-items:center;height:100%">
+                  <img src="images/uiuc.png" width="50%" alt="UIUC Logo">
+                </div>
               </td>
             </tr>
+
             <tr>
-              <td style="padding:0px;width:100%;vertical-align:middle">
-                <p>
-                  <strong><a href="https://nturll.netlify.app/about">Robot Learning Lab, National Taiwan University</a></strong>
-                  <br>
-                  Research Assistant, Jun. 2022 - Feb. 2023
-                  <br>
-                  Advisor: Prof. <a href="https://shaohua0116.github.io">Shao-Hua Sun</a>
-                  <td style="padding:0px 20px 0px 20px;width:10%;vertical-align:middle"><img src="images/logo_ntu.png" width="50" height="50"></td>
-                </p>
+              <td style="padding:20px;width:75%;vertical-align:top">
+                <div style="display:flex;flex-direction:column;justify-content:center">
+                  <span style="font-weight:bold">Research Assistant</span>
+                  <span><a href="https://nturll.netlify.app/about">Robot Learning Lab, National Taiwan University</a></span>
+                  <span style="color:#666;font-style:italic;margin-top:3px">Jun. 2022 - Feb. 2023</span>
+                  <p style="margin-top:10px">
+                    Advisor: Prof. <a href="https://shaohua0116.github.io">Shao-Hua Sun</a>
+                  </p>
+                </div>
+              </td>
+              <td style="padding:20px;width:25%;vertical-align:top">
+                <div class="one" style="display:flex;align-items:center;height:100%">
+                  <img src="images/logo_ntu.png" width="50%" alt="NTU Logo">
+                </div>
               </td>
             </tr>
+
             <tr>
-              <td style="padding:0px;width:100%;vertical-align:middle">
-                <p>
-                  <strong><a href="https://vllab.ee.ntu.edu.tw">Vision & Learning Lab, National Taiwan University</a></strong>
-                  <br>
-                  Research Assistant, Sep. 2021 - Feb. 2023
-                  <br>
-                  Advisor: Prof. <a href="http://vllab.ee.ntu.edu.tw/ycwang.html">Yu-Chiang Frank Wang</a>
-                  <td style="padding:0px 20px 0px 20px;width:10%;vertical-align:middle"><img src="images/logo_ntu.png" width="50" height="50"></td>
-                </p>
+              <td style="padding:20px;width:75%;vertical-align:top">
+                <div style="display:flex;flex-direction:column;justify-content:center">
+                  <span style="font-weight:bold">Research Assistant</span>
+                  <span><a href="https://vllab.ee.ntu.edu.tw">Vision & Learning Lab, National Taiwan University</a></span>
+                  <span style="color:#666;font-style:italic;margin-top:3px">Sep. 2021 - Feb. 2023</span>
+                  <p style="margin-top:10px">
+                    Advisor: Prof. <a href="http://vllab.ee.ntu.edu.tw/ycwang.html">Yu-Chiang Frank Wang</a>
+                  </p>
+                </div>
+              </td>
+              <td style="padding:20px;width:25%;vertical-align:top">
+                <div class="one" style="display:flex;align-items:center;height:100%">
+                  <img src="images/logo_ntu.png" width="50%" alt="NTU Logo">
+                </div>
               </td>
             </tr>
+
           </tbody></table>
 
-
-          <!-- Teaching Experience -->
-          <table style="width:100%;border:0px;padding:20px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px;width:100%;vertical-align:middle">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Teaching Experience</h2>
               </td>
             </tr>
+          </tbody></table>
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
             <tr>
-              <td style="padding:0px;width:100%;vertical-align:middle">
-                <p>
-                  <strong>UIUC CS</strong> (CS 233: Computer Architecture, Spring 2024 | CS543: Computer Vision, Fall 2024)
-                </p>
-                <p>
-                  <strong>NTHU EE</strong> (EE 2405: Embedded System Laboratory, Spring 2019)
-                </p>
+              <td style="padding:20px;width:75%;vertical-align:top">
+                <div style="display:flex;flex-direction:column;justify-content:center">
+                  <span style="font-weight:bold">Teaching Assistant</span>
+                  <span>University of Illinois at Urbana-Champaign</span>
+                  <p style="margin-top:10px">
+                    CS233: Computer Architecture (Spring 2024)<br>
+                    CS543: Computer Vision (Fall 2024)<br>
+                    CS445: Computational Photography (Spring 2025)
+                  </p>
+                </div>
+              </td>
+              <td style="padding:20px;width:25%;vertical-align:top">
+                <div class="one" style="display:flex;align-items:center;height:100%">
+                  <img src="images/uiuc.png" width="50%" alt="UIUC Logo">
+                </div>
               </td>
             </tr>
-          </tbody></table>
 
+            <tr>
+              <td style="padding:20px;width:75%;vertical-align:top">
+                <div style="display:flex;flex-direction:column;justify-content:center">
+                  <span style="font-weight:bold">Teaching Assistant</span>
+                  <span>National Tsing Hua University</span>
+                  <p style="margin-top:10px">
+                    EE2405: Embedded System Laboratory (Spring 2020)
+                  </p>
+                </div>
+              </td>
+              <td style="padding:20px;width:25%;vertical-align:top">
+                <div class="one" style="display:flex;align-items:center;height:100%">
+                  <img src="images/logo_nthu.png" width="50%" alt="NTHU Logo">
+                </div>
+              </td>
+            </tr>
+
+          </tbody></table>
 
           <!-- Awards & Professional Activity -->
           <table style="width:100%;border:0px;padding:20px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -379,18 +501,17 @@
             </tr>
           </tbody></table>
 
-
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Credits to <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a> for this awesome website template.
+                  Credits to <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a> for this awesome website template.<br>
+                  Last updated: June 2025.
                 </p>
               </td>
             </tr>
           </tbody></table>
-
         </td>
       </tr>
     </table>
